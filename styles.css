@@ -1,0 +1,38 @@
+/* 
+    CASCADING STYLESHEET
+*/
+
+/* Alinhamentos, Espaçamentos, Larguras e Alturas */
+
+html, body {
+    margin: 0;
+}
+
+header, main, footer {
+    text-align: center;
+}
+
+.donors {
+    /* display: maneira para exibir os elementos na página; */
+    display: grid; /* Esquema de tabela */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.form {
+   display: grid; 
+   grid-template-columns: 1fr 1fr;
+}
+
+header, .form, main {
+    /* Espaçamento */
+    margin-bottom: 70px;
+
+    /* Limite dos elementos na página */
+    width:80%;
+    max-width: 500px;
+
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+/* AULA PARADA EM 1:12:34 */
