@@ -26,6 +26,8 @@
     <!-- Configurações da página-->
     <title>Doe sangue, Doe vida!</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="blood.png" type="image/x-icon">
     <!-- <style>
         body {
             color:red;
@@ -37,7 +39,7 @@
 <body>
     <!-- Todo o conteúdo visível para o usuário-->
     <header>
-        <h1>DOE</h1>
+        <img class="logo" src="logo.png" alt="logo-DOE"> <!--Alternativa para imagem-->
         <h2>A sua doação importa</h2>
         <p>Até 3 vidas com 1 doação.</p>
         <p>Mais de 38.000 doações são necessárias todos os dias.</p>
@@ -45,7 +47,7 @@
         <button>Quero ajudar</button>
     </header>
 
-    <section class="form">
+    <section class="form hide-form">
         <h2>Entre na lista de doadores</h2>
         <form action="/">
             <input type="text" name="name" placeholder="Nome Completo">
@@ -56,7 +58,7 @@
     </section>
 
     <main>
-        <h2>Últimos doadores</h2>
+        <h2>Últimos <span>doadores</span></h2>
         <section class="donors">
 
             <div class="donor">
@@ -79,13 +81,14 @@
                 <p>Cleytin</p>
             </div>
 
-            
+
         </section>
     </main>
-    
+
     <footer>
         Criado por Miroswd e Rocketseat
     </footer>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
