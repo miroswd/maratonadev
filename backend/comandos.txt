@@ -1,0 +1,8 @@
+npm -> Node Package Manager (Gerenciador de pacotes)
+
+
+>>> npm init -y # Inicia uma aplicação, gerando um arquivo de configurações 
+>>> npm install express
+>>> npm install nodemon # Falta instalar
+>>> npm install nunjucks # Template engine, permite criar templates no hmtl
+>>> npm install pg # instalando o postgres
